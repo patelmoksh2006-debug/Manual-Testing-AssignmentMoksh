@@ -1,1 +1,45 @@
-testing 
+4.1 Login Module
+1. Passwords should be case-insensitive.
+
+4.2 Admin Management Module
+1. Admin can reset user passwords via email link.
+2. The system should automatically delete an employee’s data when they resign.
+
+4.3 PIM(Personnel Information Management) Module
+1. Employee data should be deleted if left blank for more than 15 days.
+
+4.4 Leave Management Module
+
+4.5 Time and Attendance Module
+1. Attendance record should be editable by employee for missed punches.
+
+4.6 Recruitment Module
+1. Candidates can view other applicants' profiles.
+
+4.7 My Info Module
+1. Employees should be able to modify their date of joining. 
+
+4.8 Performance Module
+1. System should auto-rate employees with perfect attendance as 'Excellent'. 
+
+4.9 Dashboard Module
+
+4.10 Directory Module
+
+4.11 Maintenance Module
+1. System should automatically delete archived data after 30 days. 
+
+4.12 Claim Module
+1. Employees can edit their claim after approval. 
+
+4.13 Buzz Module
+1. Employees can delete others' posts.
+ 
+Login Page Testing
+
+1. Enter valid username and password that should redirect to Dashboard.
+2. Enter the wrong username or password and then login and check if an error message is appearing. 
+3. Show or hide password option.
+4. Submit with a blank username or password should show the validation error.
+5. Check if the forgotten or reset password link is available and works.
+6. Click the browser back button after logout should not go back to Dashboard it should go to the login page.
